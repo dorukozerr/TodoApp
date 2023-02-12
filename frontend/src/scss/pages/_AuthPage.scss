@@ -1,0 +1,41 @@
+.authFormWrapper {
+  background-color: $white-1;
+  border-radius: $border-s;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+
+    .errMsg {
+      text-align: center;
+    }
+
+    input {
+      height: 40px;
+      width: 220px;
+      padding: 0 10px;
+      border: $white-1;
+      background-color: $black-3;
+      outline: none;
+      border-radius: $border-s;
+      color: $white;
+    }
+
+    .pwContainer {
+      position: relative;
+
+      .btn {
+        position: absolute;
+        top: 50%;
+        right: 12px;
+        transform: translateY(-50%);
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}

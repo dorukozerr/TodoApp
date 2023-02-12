@@ -1,0 +1,72 @@
+$bg-color: #1e202e;
+$white: rgb(255, 255, 255);
+$white-1: rgba(255, 255, 255, 0.1);
+$white-2: rgba(255, 255, 255, 0.2);
+$white-3: rgba(255, 255, 255, 0.3);
+$black: rgb(0, 0, 0);
+$black-1: rgba(0, 0, 0, 0.1);
+$black-2: rgba(0, 0, 0, 0.2);
+$black-3: rgba(0, 0, 0, 0.3);
+$border-s: 6px;
+$border-m: 12px;
+$border-l: 18x;
+$border-xl: 24px;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: 'Rubik', sans-serif;
+  background-color: $bg-color;
+  color: #d5a0b9;
+}
+
+#app {
+  height: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  height: 40px;
+  background-color: $black-2;
+  backdrop-filter: blur(20px);
+  padding: 8px 15px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 0.25s ease all;
+  font-size: 16px;
+  line-height: 16px;
+
+  svg {
+    max-height: 16px;
+    max-width: 16px;
+  }
+
+  &:hover {
+    transform: scale(1.04);
+  }
+
+  &:active {
+    transform: scale(0.92);
+  }
+}
