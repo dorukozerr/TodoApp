@@ -7,7 +7,7 @@
 - Create Todo
 - Edit Todo
 - Add thumbnail to Todo
-- Add to Todo
+- Add attachments to Todo
 - Download/View attachments from Todo
 
 ## Frontend
