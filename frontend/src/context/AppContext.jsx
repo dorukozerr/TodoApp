@@ -22,6 +22,7 @@ export const AppProvider = ({ children }) => {
   const logout = () => {
     localStorage.removeItem('user')
     setIsAuthorized(false)
+    setUserData(null)
   }
 
   const fetchTodos = token => {

@@ -35,8 +35,6 @@ SERVER_URL = ''
 
 - [gmail nodemailer password generation](https://www.youtube.com/watch?v=nP3EA2IPYkk)
 
-- Due to security reasons, I shouldn't share environment variables. But the app kickstarts with them quite smoothly.
-
 - MongoDB collection names are `todos` and `users`. Any URI should work just fine. But be careful about collection name collision.
 - Default ones are below but it can vary if ports are in use.
 
